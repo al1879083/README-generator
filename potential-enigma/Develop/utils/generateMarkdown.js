@@ -60,40 +60,34 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# **${data.title}**\n
-    >## **_Description_**\n
-    ${data.description}\n
-    ---
-    ### **_Table of Contents_**\n
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [Features](#features)
-    * [Contribution](#contribution)
-    * [License](#license)
-    >## **_Installation_**\n
-    \`\`\`
-    ${data.installation}
-    \`\`\`\n
-    >## **_Usage_**\n
-    ${data.usage}\n
-    Provide instructions and examples for use.\n
-    **Wider Screen**\n
-    ![screenshot](./assets/images/screenshot.png)\n
-    **Mobile Screen**\n
-    ![screenshot](./assets/images/mobile-screenshot.png)\n
-    >## **_Credits_**\n
-    ${data.credits}\n
-    >## **_Features_**\n
-    ${data.features}\n
-    >## **_Contributing_**\n
-    If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.\n
-    ❤️\n
-    ${data.contribution}\n
-    >## **_License_**\n
-    ${renderLicenseBadge(data.license)}\n
-    ${renderLicenseSection(data.license)}\n
-    ${renderLicenseLink(data.license)}\n
-    `;
+>## **_Description_**\n
+${data.description}\n
+---
+### **_Table of Contents_**\n
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [Features](#features)
+* [Contribution](#contribution)
+* [License](#license)
+>## **_Installation_**\n
+\`\`\`
+${data.installation}
+\`\`\`\n
+>## **_Usage_**\n
+${data.usage}\n
+>## **_Credits_**\n
+${data.credits}\n
+>## **_Features_**\n
+${data.features}\n
+>## **_Contributing_**\n
+If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.\n
+${data.contribution}\n
+>## **_License_**\n
+${renderLicenseBadge(data.license)}\n
+${renderLicenseSection(data.license)}\n
+${renderLicenseLink(data.license)}\n
+`;
 }
 
 module.exports = generateMarkdown;
