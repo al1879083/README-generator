@@ -1,8 +1,8 @@
-# **a**
+# **readme generator**
 
 >## **_Description_**
 
-s
+makes a readme
 
 ---
 ### **_Table of Contents_**
@@ -16,30 +16,22 @@ s
 >## **_Installation_**
 
 ```
-d
+through github
 ```
 
 >## **_Usage_**
 
-f
+run the project and then answer the questions
 
 Provide instructions and examples for use.
 
-**Wider Screen**
-
-![screenshot](./assets/images/screenshot.png)
-
-**Mobile Screen**
-
-![screenshot](./assets/images/mobile-screenshot.png)
-
 >## **_Credits_**
 
-g
+adrian
 
 >## **_Features_**
 
-h
+makes custom readme easily
 
 >## **_Contributing_**
 
@@ -47,7 +39,7 @@ If you created an application or package and would like other developers to cont
 
 ❤️
 
-j
+thank you
 
 >## **_License_**
 
