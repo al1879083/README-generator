@@ -1,8 +1,8 @@
-# **readme generator**
+# **README Generator **
 
 >## **_Description_**
 
-makes a readme
+Easily generates a README file for various projects
 
 ---
 ### **_Table of Contents_**
@@ -16,30 +16,28 @@ makes a readme
 >## **_Installation_**
 
 ```
-through github
+Download repository from Git Hub 
 ```
 
 >## **_Usage_**
 
-run the project and then answer the questions
+Run the index.js file
 
-Provide instructions and examples for use.
+<img width="1280" alt="Screen Shot 2021-04-18 at 7 26 24 PM" src="https://user-images.githubusercontent.com/78574452/115173541-6113ab80-a07c-11eb-80a8-abb1acef09b8.png">
 
 >## **_Credits_**
 
-adrian
+Adrian Landa 
 
 >## **_Features_**
 
-makes custom readme easily
+Automatically fill in all desired README requirements and licenses
 
 >## **_Contributing_**
 
-If you created an application or package and would like other developers to contribute it, you will want to add guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own.
+Please follow the [Contributor Covenant](https://www.contributor-covenant.org/).
 
-❤️
-
-thank you
+Thank you for your help!
 
 >## **_License_**
 
